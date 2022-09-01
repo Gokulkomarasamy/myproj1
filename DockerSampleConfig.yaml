@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demors
-        image: samplecr2.azurecr.io/demors:latest
+        image: myproject1cr.azurecr.io/cdedemorepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
